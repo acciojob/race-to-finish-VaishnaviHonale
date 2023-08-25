@@ -1,29 +1,29 @@
 window.promises = [];
-let promise1 = new Promise((resolve, reject) => {
+let promise1 = new Promises((resolve, reject) => {
     setTimeout(() =>{
         resolve("Promise1");
     }, Math.floor(Math.random() * 5000) + 1000);
 });
 
-let promise2 = new Promise((resolve, reject) => {
+let promise2 = new Promises((resolve, reject) => {
     setTimeout(() =>{
         resolve("Promise2");
     }, Math.floor(Math.random() * 5000) + 1000);
 });
 
-let promise3 = new Promise((resolve, reject) => {
+let promise3 = new Promises((resolve, reject) => {
     setTimeout(() =>{
         resolve("Promise3");
     }, Math.floor(Math.random() * 5000) + 1000);
 });
 
-let promise4 = new Promise((resolve, reject) => {
+let promise4 = new Promises((resolve, reject) => {
     setTimeout(() =>{
         resolve("Promise4");
     }, Math.floor(Math.random() * 5000) + 1000);
 });
 
-let promise5 = new Promise((resolve, reject) => {
+let promise5 = new Promisesss((resolve, reject) => {
     setTimeout(() =>{
         resolve("Promise5");
     }, Math.floor(Math.random() * 5000) + 1000);
